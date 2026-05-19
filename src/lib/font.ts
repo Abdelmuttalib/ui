@@ -39,7 +39,7 @@ export const serifFontsLabel: Record<ThemeSerifFont, string> = {
 
 export type ThemefontName = ThemeSerifFont
 
-export const DEFAULT_SERIF_FONT = 'ibmplexsans'
+export const DEFAULT_SERIF_FONT = 'thmanyah'
 
 import { create } from 'zustand'
 
