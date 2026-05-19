@@ -33,7 +33,7 @@ export function ThemePaletteSelect() {
                 value={paletteName as ThemePaletteName}
               >
                 {' '}
-                {paletteName}
+                {/* {paletteName} */}
                 <div className="border-foreground/15 inline-flex rounded-sm border">
                   {mainPaletteColorsKeys.map((color, index) => (
                     <div

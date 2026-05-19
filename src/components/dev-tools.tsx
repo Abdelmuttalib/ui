@@ -21,17 +21,17 @@ import { ThemeFontSelect } from './theme-font-select'
 // ]
 
 export function DevTools() {
-  const links = [
-    { name: 'Home', link: '/' },
-    { name: 'V1', link: '/v1' },
-    { name: 'V2', link: '/v2' },
-    { name: 'V3', link: '/v3' },
-    { name: 'V4', link: '/v4' },
-    // { name: 'V6', link: '/v6' },
-  ]
+  // const links = [
+  //   { name: 'Home', link: '/' },
+  //   { name: 'V1', link: '/v1' },
+  //   { name: 'V2', link: '/v2' },
+  //   { name: 'V3', link: '/v3' },
+  //   { name: 'V4', link: '/v4' },
+  // ]
+
   return (
     <div className="fixed bottom-6 right-6 z-30 flex items-end gap-2 rounded-xl border border-black bg-background p-2 text-sm">
-      <div>
+      {/* <div>
         {links.map((link) => (
           <a
             key={link.name}
@@ -41,10 +41,10 @@ export function DevTools() {
             {link.name}
           </a>
         ))}
-      </div>
+      </div> */}
       <ThemePaletteSelect />
       <ThemeFontSelect />
-      <TailwindIndicator />
+      {/* <TailwindIndicator /> */}
     </div>
   )
 }
