@@ -28,7 +28,7 @@ export default function V3Page() {
   return (
     <>
       <Helmet>
-        <title>نموذج 3</title>
+        <title>نموذج 1</title>
       </Helmet>
 
       <div>

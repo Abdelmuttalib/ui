@@ -1,7 +1,6 @@
 import React from 'react'
 import { createHashRouter, RouteObject, createBrowserRouter } from 'react-router-dom'
 import ErrorPage from './components/error-page'
-import HomePage from './pages/home'
 import V3Page from './components/v3'
 import V4Page from './components/v4'
 import V5Page from './components/v5'
@@ -14,7 +13,7 @@ export const routerObjects: RouteObject[] = [
     children: [
       {
         path: '/',
-        element: <HomePage />,
+        element: <V3Page />,
         handle: {},
       },
       {

@@ -28,7 +28,7 @@ export default function V6Page() {
   return (
     <>
       <Helmet>
-        <title>نموذج 6</title>
+        <title>نموذج 4</title>
       </Helmet>
 
       <div>
