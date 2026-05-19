@@ -5,6 +5,7 @@ import { RouterProvider } from 'react-router-dom'
 import { createRouter } from './router'
 import { ThemeCustomizerWrapper } from 'src/components/theme-customizer'
 import { DevTools } from 'src/components/dev-tools'
+import { Analytics } from '@vercel/analytics/next'
 
 export default function App() {
   const queryClient = useMemo(() => new QueryClient({}), [])
@@ -14,6 +15,7 @@ export default function App() {
         <RouterProvider router={createRouter()} />
         <ReactQueryDevtools />
         <DevTools />
+        <Analytics />
       </ThemeCustomizerWrapper>
     </QueryClientProvider>
   )
