@@ -440,7 +440,7 @@ const faqs = [
 
 function SectionTitle({ title }: { title: string | React.ReactNode }) {
   return (
-    <Typography variant="5xl/normal" className="mb-8 mt-6 font-light lg:leading-[1.18]">
+    <Typography variant="5xl/normal" className="mb-8 mt-6 font-serif font-light lg:leading-[1.18]">
       {title}
     </Typography>
   )
@@ -1073,7 +1073,7 @@ export function V4() {
                   {/* Premium Label */}
 
                   {/* Heading */}
-                  <h1 className="text-5xl font-light text-foreground md:text-6xl lg:text-7xl lg:leading-[1.18]">
+                  <h1 className="font-serif text-5xl font-light text-foreground md:text-6xl lg:text-7xl lg:leading-[1.18]">
                     {landingPageContent.heroContent.title.line1}
                     <br />
                     <span className="font-display text-[#C58D00]">
@@ -1188,11 +1188,11 @@ export function V4() {
           <section className="relative bg-background text-foreground">
             <PageContainer className="py-32">
               {/* HEADER */}
-              <div className="mx-auto max-w-4xl text-center">
+              <div className="mx-auto max-w-2xl text-center">
                 {/* line */}
                 <SectionTag id="services">{landingPageContent.servicesSection.label}</SectionTag>
 
-                <h2 className="mt-6 font-serif text-5xl font-light leading-[1.05]">
+                <h2 className="mt-6 font-serif text-5xl font-light lg:leading-[1.15]">
                   {landingPageContent.servicesSection.title}
                 </h2>
 
@@ -1254,7 +1254,7 @@ export function V4() {
               <div className="mx-auto max-w-4xl text-center">
                 <SectionTag id="">{landingPageContent.doctorsSection.label}</SectionTag>
 
-                <h2 className="mt-6 font-serif text-5xl font-light leading-[1.05]">
+                <h2 className="mt-6 font-serif text-5xl font-light lg:leading-[1.05]">
                   {landingPageContent.doctorsSection.title.line1}
                   <br />
                   <span>{landingPageContent.doctorsSection.title.highlight}</span>
@@ -1399,7 +1399,7 @@ export function V4() {
               <div className="mx-auto max-w-4xl text-center">
                 <p className="text-sm font-medium uppercase tracking-[0.35em] text-[#C58D00]">Medical Specialists</p>
 
-                <h2 className="mt-6 font-serif text-5xl font-light leading-[1.05]">
+                <h2 className="mt-6 font-serif text-5xl font-light lg:leading-[1.05]">
                   Expert physicians
                   <br />
                   dedicated to precision care

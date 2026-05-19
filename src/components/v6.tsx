@@ -292,7 +292,7 @@ export function HeroSection() {
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.1 }}
-              className="max-w-2xl text-5xl tracking-[-0.03em] text-[#21326a] sm:text-6xl lg:leading-[1.15]"
+              className="max-w-2xl font-serif text-5xl text-[#21326a] sm:text-6xl lg:leading-[1.15]"
             >
               خبرة طبية متخصصة
               <br />
@@ -450,7 +450,7 @@ export function ServicesSection() {
           <div className="max-w-3xl">
             <SectionTag>الخدمات الطبية</SectionTag>
 
-            <h2 className="mt-6 font-serif text-5xl font-light leading-[1.05] tracking-[-0.03em] md:text-7xl">
+            <h2 className="mt-6 font-serif text-5xl font-light leading-[1.05] md:text-7xl">
               خدمات متخصصة
               <br />
               في <span className="text-[#C58D00]">الجلدية والتجميل</span>
@@ -598,7 +598,7 @@ export function ServicesSection3() {
             الخدمات الطبية
           </div>
 
-          <h2 className="text-4xl font-normal text-[#21326a] sm:text-5xl lg:leading-[1.2]">
+          <h2 className="font-serif text-4xl font-normal text-[#21326a] sm:text-5xl lg:leading-[1.2]">
             حلول متقدمة
             <br />
             <span className="text-[#c58d00]">في الجلدية والتجميل</span>
@@ -753,7 +753,7 @@ export function ServicesSection2() {
           <div className="max-w-3xl">
             <SectionTag>الخدمات الطبية</SectionTag>
 
-            {/* <h2 className="mt-5 font-serif text-4xl font-light leading-[1.05] tracking-[-0.03em] sm:text-5xl md:text-6xl lg:text-7xl">
+            {/* <h2 className="mt-5 font-serif text-4xl font-light leading-[1.05] sm:text-5xl md:text-6xl lg:text-7xl">
               خدمات متخصصة
               <br />
               في <span className="text-[#C58D00]">الجلدية والتجميل</span>
@@ -950,7 +950,7 @@ export function TechnologySection() {
           <div className="lg:col-span-7">
             <SectionTag>{landingPageContent.technologySection.label}</SectionTag>
 
-            {/* <h2 className="mt-6 font-serif text-5xl font-light leading-[1.05] tracking-[-0.03em] md:text-6xl lg:text-7xl">
+            {/* <h2 className="mt-6 font-serif text-5xl font-light leading-[1.05] md:text-6xl lg:text-7xl">
               {landingPageContent.technologySection.title.line1}{' '}
               <span className="text-[#C58D00]">{landingPageContent.technologySection.title.highlight}</span>
               <br />
@@ -1027,7 +1027,7 @@ export function DoctorsSection() {
           <div className="lg:col-span-7">
             <SectionTag>{landingPageContent.doctorsSection.label}</SectionTag>
 
-            <h2 className="mt-6 font-serif text-5xl font-light leading-[1.05] tracking-[-0.03em] md:text-6xl lg:text-7xl">
+            <h2 className="mt-6 font-serif text-5xl font-light leading-[1.05] md:text-6xl lg:text-7xl">
               {landingPageContent.doctorsSection.title.line1}{' '}
               <span className="text-[#C58D00]">{landingPageContent.doctorsSection.title.highlight}</span>
               <br />
@@ -2127,7 +2127,7 @@ export function ContactSection() {
           <div className="lg:col-span-5">
             <SectionTag className="border-white/10 bg-white/5 text-white">تواصل معنا</SectionTag>
 
-            <h2 className="mt-6 font-serif text-5xl font-light leading-[1.05] tracking-[-0.03em] md:text-6xl">
+            <h2 className="mt-6 font-serif text-5xl font-light leading-[1.05] md:text-6xl">
               احجز موعدك
               <br />
               <span className="text-[#C58D00]">أو تواصل معنا</span>
@@ -2493,7 +2493,7 @@ export function BeforeAfterSection3() {
             النتائج
           </div>
 
-          <h2 className="text-4xl font-normal text-[#21326a] sm:text-5xl lg:leading-[1.2]">
+          <h2 className="font-serif text-4xl font-normal text-[#21326a] sm:text-5xl lg:leading-[1.2]">
             نتائج طبيعية
             <br />
             <span className="text-[#c58d00]">تعكس جودة العناية</span>
@@ -2628,7 +2628,7 @@ export function DoctorsSection2() {
             الأطباء
           </div>
 
-          <h2 className="text-4xl font-normal text-[#21326a] sm:text-5xl lg:leading-[1.2]">
+          <h2 className="font-serif text-4xl font-normal text-[#21326a] sm:text-5xl lg:leading-[1.2]">
             فريق طبي بخبرات
             <br />
             <span className="text-[#c58d00]">متخصصة في الجلدية</span>
@@ -2784,7 +2784,7 @@ export function TestimonialsSection2() {
             آراء العملاء
           </div>
 
-          <h2 className="text-4xl font-normal text-[#21326a] sm:text-5xl lg:leading-[1.2]">
+          <h2 className="font-serif text-4xl font-normal text-[#21326a] sm:text-5xl lg:leading-[1.2]">
             تجارب حقيقية
             <br />
             <span className="text-[#c58d00]">تعكس جودة الرعاية</span>
@@ -2913,7 +2913,7 @@ export function PhilosophySection3() {
             نهجنا في الرعاية
           </div>
 
-          <h2 className="text-4xl font-normal text-[#21326a] sm:text-5xl lg:leading-[1.2]">
+          <h2 className="font-serif text-4xl font-normal text-[#21326a] sm:text-5xl lg:leading-[1.2]">
             رعاية طبية
             <span className="text-[#c58d00]"> تركز على التفاصيل</span>
             <br />
@@ -3024,7 +3024,7 @@ export function FAQSection3() {
             الأسئلة الشائعة
           </div>
 
-          <h2 className="text-4xl font-normal text-[#21326a] sm:text-5xl lg:leading-[1.2]">
+          <h2 className="font-serif text-4xl font-normal text-[#21326a] sm:text-5xl lg:leading-[1.2]">
             إجابات تساعدك على
             <span className="text-[#c58d00]"> اتخاذ القرار</span>
           </h2>
@@ -3084,7 +3084,9 @@ export function ContactSection3() {
         <div className="mx-auto max-w-3xl text-center">
           <div className="mb-5 inline-flex rounded-full bg-white px-4 py-2 text-sm text-[#c58d00]">تواصل معنا</div>
 
-          <h2 className="text-4xl font-normal text-[#21326a] sm:text-5xl lg:leading-[1.2]">نحن هنا لمساعدتك</h2>
+          <h2 className="font-serif text-4xl font-normal text-[#21326a] sm:text-5xl lg:leading-[1.2]">
+            نحن هنا لمساعدتك
+          </h2>
 
           <p className="mt-6 text-lg text-[#425573]">
             فريقنا جاهز للإجابة على استفساراتك ومساعدتك في اختيار العلاج المناسب.

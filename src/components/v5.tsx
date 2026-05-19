@@ -171,7 +171,7 @@ export function ServicesSection() {
           <div className="max-w-3xl">
             <SectionTag>الخدمات الطبية</SectionTag>
 
-            <h2 className="mt-6 font-serif text-5xl font-light leading-[1.05] tracking-[-0.03em] md:text-7xl">
+            <h2 className="mt-6 font-serif text-5xl font-light md:text-7xl  lg:leading-[1.05]">
               خدمات متخصصة
               <br />
               في <span className="text-[#C58D00]">الجلدية والتجميل</span>
@@ -319,7 +319,7 @@ export function ServicesSection2() {
           <div className="max-w-3xl">
             <SectionTag>الخدمات الطبية</SectionTag>
 
-            {/* <h2 className="mt-5 font-serif text-4xl font-light leading-[1.05] tracking-[-0.03em] sm:text-5xl md:text-6xl lg:text-7xl">
+            {/* <h2 className="mt-5 font-serif text-4xl font-light leading-[1.05]  sm:text-5xl md:text-6xl lg:text-7xl">
               خدمات متخصصة
               <br />
               في <span className="text-[#C58D00]">الجلدية والتجميل</span>
@@ -516,7 +516,7 @@ export function TechnologySection() {
           <div className="lg:col-span-7">
             <SectionTag>{landingPageContent.technologySection.label}</SectionTag>
 
-            {/* <h2 className="mt-6 font-serif text-5xl font-light leading-[1.05] tracking-[-0.03em] md:text-6xl lg:text-7xl">
+            {/* <h2 className="mt-6 font-serif text-5xl font-light leading-[1.05]  md:text-6xl lg:text-7xl">
               {landingPageContent.technologySection.title.line1}{' '}
               <span className="text-[#C58D00]">{landingPageContent.technologySection.title.highlight}</span>
               <br />
@@ -593,7 +593,7 @@ export function DoctorsSection() {
           <div className="lg:col-span-7">
             <SectionTag>{landingPageContent.doctorsSection.label}</SectionTag>
 
-            <h2 className="mt-6 font-serif text-5xl font-light leading-[1.05] tracking-[-0.03em] md:text-6xl lg:text-7xl">
+            <h2 className="mt-6 font-serif text-5xl font-light leading-[1.05]  md:text-6xl lg:text-7xl">
               {landingPageContent.doctorsSection.title.line1}{' '}
               <span className="text-[#C58D00]">{landingPageContent.doctorsSection.title.highlight}</span>
               <br />
@@ -907,7 +907,7 @@ const faqs = [
 
 function SectionTitle({ title }: { title: string | React.ReactNode }) {
   return (
-    <Typography variant="5xl/normal" className="mb-8 mt-6 font-light lg:leading-[1.18]">
+    <Typography variant="5xl/normal" className="mb-8 mt-6 font-serif font-light lg:leading-[1.18]">
       {title}
     </Typography>
   )
@@ -1449,7 +1449,7 @@ export function ContactSection() {
           <div className="lg:col-span-5">
             <SectionTag className="border-white/10 bg-white/5 text-white">تواصل معنا</SectionTag>
 
-            <h2 className="mt-6 font-serif text-5xl font-light leading-[1.05] tracking-[-0.03em] md:text-6xl">
+            <h2 className="mt-6 font-serif text-5xl font-light leading-[1.05]  md:text-6xl">
               احجز موعدك
               <br />
               <span className="text-[#C58D00]">أو تواصل معنا</span>
