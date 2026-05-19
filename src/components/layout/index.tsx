@@ -11,3 +11,5 @@ export const getDefaultLayout = (page: React.ReactElement) => {
     </div>
   )
 }
+
+export const DefaultLayout = getDefaultLayout

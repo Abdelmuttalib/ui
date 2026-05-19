@@ -1,6 +1,6 @@
 import { Helmet } from 'react-helmet'
 import { useTranslation } from 'react-i18next'
-import { Hero } from 'src/components/hero'
+import V2Page from 'src/components/v2'
 
 export default function Home() {
   const { t } = useTranslation('translation')
@@ -9,7 +9,7 @@ export default function Home() {
       <Helmet>
         <title>{t('title')}</title>
       </Helmet>
-      <Hero />
+      <V2Page />
     </>
   )
 }
